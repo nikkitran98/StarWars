@@ -16,6 +16,7 @@
 		CEA2111F2B02DB740070B2D9 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2111E2B02DB740070B2D9 /* StarWarsTests.swift */; };
 		CEA211292B02DB740070B2D9 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA211282B02DB740070B2D9 /* StarWarsUITests.swift */; };
 		CEA2112B2B02DB740070B2D9 /* StarWarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2112A2B02DB740070B2D9 /* StarWarsUITestsLaunchTests.swift */; };
+		CEA211382B02DDDD0070B2D9 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA211372B02DDDD0070B2D9 /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEA211242B02DB740070B2D9 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA211282B02DB740070B2D9 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		CEA2112A2B02DB740070B2D9 /* StarWarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEA211372B02DDDD0070B2D9 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CEA211072B02DB700070B2D9 /* AppDelegate.swift */,
 				CEA211092B02DB700070B2D9 /* SceneDelegate.swift */,
 				CEA2110B2B02DB700070B2D9 /* ViewController.swift */,
+				CEA211372B02DDDD0070B2D9 /* SelectionViewController.swift */,
 				CEA2110D2B02DB700070B2D9 /* Main.storyboard */,
 				CEA211102B02DB740070B2D9 /* Assets.xcassets */,
 				CEA211122B02DB740070B2D9 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA2110C2B02DB700070B2D9 /* ViewController.swift in Sources */,
+				CEA211382B02DDDD0070B2D9 /* SelectionViewController.swift in Sources */,
 				CEA211082B02DB700070B2D9 /* AppDelegate.swift in Sources */,
 				CEA2110A2B02DB700070B2D9 /* SceneDelegate.swift in Sources */,
 			);
@@ -442,7 +446,6 @@
 				INFOPLIST_FILE = StarWars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +473,6 @@
 				INFOPLIST_FILE = StarWars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
